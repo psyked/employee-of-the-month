@@ -1,6 +1,8 @@
 @import "settings";
 @import "foundation";
 
+//@import "social_foundicons";
+
 body {
   display: flex;
   min-height: 100vh;
@@ -9,6 +11,7 @@ body {
   .heading {
     h1, h2, h3, h4, h5, h6 {
       text-align: center;
+      line-height: 3em;
       //        font-weight: bold;
     }
   }
@@ -167,12 +170,15 @@ body {
   }
 
   footer {
-//    background: #333;
-//    color: $secondary-color;
+    //    background: #333;
+    //    color: $secondary-color;
     padding-top: 1em;
 
-//    h1, h2, h3, h4, h5, h6 {
-//      color: $secondary-color;
-//    }
+    .copyright {
+      color: #4e4e4e;
+    }
+    //    h1, h2, h3, h4, h5, h6 {
+    //      color: $secondary-color;
+    //    }
   }
 }
