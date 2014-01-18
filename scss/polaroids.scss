@@ -3,7 +3,7 @@ img.polaroid {
   display: inline;
   float: left;
   margin: 0 0 27px 30px;
-  width: auto;
+  min-width: auto;
   padding: 10px 10px 15px;
   text-align: center;
   font-family: "Marker Felt", sans-serif;
